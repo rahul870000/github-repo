@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: none;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.repository-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+.smaller-image {
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}
+
+.info {
+    padding-left: 70px;
+    padding-top: 150px;
+    text-align: left;
+}
+.url {
+    text-align: left;
+    padding-top: 0px;
+}
+.info color {
+    background-color: blue;
+}
+.repo-language {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.repo-name{
+    color: blue;
+}
+.repository{
+    text-align: left;
+}
+#pagination button {
+    border-radius: 30px;
+    background-color: transparent;
+}
+.container button {
+    border-radius: 30px;
+    background-color: transparent;
+}
+.container input{
+    border-radius: 20px;
+}
+.location{
+    height: 22px;
+    width: 22px;
+}
+.link{
+    height: 30px;
+    width: 30px;
+}
+
